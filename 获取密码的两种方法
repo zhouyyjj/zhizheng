@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+    int key=911;       
+    int *addr=NULL;   
+
+    addr=&key;     
+    printf("The key is: %d\n", key);   
+    printf("If I know the address of the key, I also can get it: %d\n", *addr);
+
+    return 0;
+}
